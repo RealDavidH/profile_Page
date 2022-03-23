@@ -10,6 +10,10 @@
 ul{
     list-style-type: none;
 }
+a.a_nav{
+    text-decoration: none;
+    color: white;
+}
 .nav{
     background-color: black;
     color: whitesmoke;
