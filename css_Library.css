@@ -13,6 +13,14 @@ a.a_nav {
     color: white;
 }
 
+.link{
+    color: blue;
+    text-decoration: underline;
+}
+.link:hover{
+    cursor: pointer;
+}
+
 h2 {
     color: white;
 }
@@ -183,7 +191,7 @@ header {
 /* Currently set to 90% of the container */
 /* Set to the center of the container with "margin: 0 auto" */
 .container-contents {
-    display: flex;
+
     margin: 0 auto;
 }
 
@@ -376,25 +384,26 @@ function closeCookie() {
     border: solid black;
 }
 
-.btn_accept{
+.btn_accept, .btn_accept2{
     border-radius: 50%;
     height: 30px;
     width: 30px;
     border: none;
 }
 
-.btn_decline{
+.btn_decline, .btn_decline2{
     border-radius: 50%;
     height: 30px;
     width: 30px;
     border: none;
 }
-.btn_round{
+.btn_round, .btn_round2{
     color: black;
     background-color: silver;
     border-radius: 50%;
     min-width: 25px;
     min-height: 25px;
+    pointer-events: none;
 }
 
 /* Green Button */

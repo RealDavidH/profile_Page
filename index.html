@@ -30,11 +30,12 @@
                         <img src="icons/user-circle.png" class="user_image" alt="">
                     </div>
                     <div class="mar-top-20 padding-10">
-                        <p class="text-30">Jane Doe</p>
+                        <p class="text-30 Jane">Jane Doe</p>
                         <img src="icons/map-marker.png" class="map_marker" alt=""> Seattle
                         <p class="">Developer | Engineer | Problem Solver</p>
                         <p>Master of shadows and the Internet!</p>
-                        <img src="icons/gear.png" class="gear mar-top-20" alt="gear icon"> <a href="">edit
+                        <img src="icons/gear.png" class="gear mar-top-20" alt="gear icon"> <a class="link"
+                            onclick="edit_profile();">edit
                             profile</a>
                     </div>
                 </div>
@@ -55,36 +56,36 @@
                         <button class="btn_round" value="null">2</button>
                         <p class="white">Connection Requests</p>
                     </div>
-                    <div class="container-contents padding-10">
+                    <div class="container-contents padding-10 flex">
                         <div class="left col-2">
-                            <div class="row alg-middle padding-10">
+                            <div class="friend row alg-middle padding-10">
                                 <img src="images/phil-s.jpg" class="friend_img border" alt="Phil">
                                 <p class="mar-left-5">Phil K</p>
                             </div>
-                            <div class="row alg-middle padding-10">
+                            <div class="friend2 row alg-middle padding-10">
                                 <img src="images/todd-s.jpg" class="friend_img border" alt="Todd S">
                                 <p class="mar-left-5">Todd S</p>
                             </div>
                         </div>
                         <div class="right middle col-1">
-                            <div class="middle">
-                                <button type="button" class="btn_accept"> <img src="icons/accept-circle.png"
-                                        class="btn_accept" /></button>
-                                <button type="button" class="btn_decline"> <img src="icons/close-circle.png"
-                                        class="btn_decline"></button>
+                            <div class="friend_button middle">
+                                <button type="button" class="btn_accept" onclick="accept(); update_accept();"> <img
+                                        src="icons/accept-circle.png" class="btn_accept" /></button>
+                                <button type="button" class="btn_decline" onclick="accept(); update_decline();"> <img
+                                        src="icons/close-circle.png" class="btn_decline"></button>
                             </div>
-                            <div class="middle padding-top-10">
-                                <button type="button" class="btn_accept"> <img src="icons/accept-circle.png"
-                                        class="btn_accept" /></button>
-                                <button type="button" class="btn_decline"> <img src="icons/close-circle.png"
-                                        class="btn_decline"></button>
+                            <div class="friend_button2 middle padding-top-10">
+                                <button type="button" class="btn_accept2" onclick="accept2(); update_accept();"> <img
+                                        src="icons/accept-circle.png" class="btn_accept2" /></button>
+                                <button type="button" class="btn_decline2" onclick="accept2(); update_decline();"> <img
+                                        src="icons/close-circle.png" class="btn_decline2"></button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="container-small">
                     <div class="container-top-small">
-                        <button class="btn_round" value="null">500+</button>
+                        <button class="btn_round2" value="null">420</button>
                         <p class="white">Your Connections</p>
                     </div>
                     <div class="container-contents padding-10">
